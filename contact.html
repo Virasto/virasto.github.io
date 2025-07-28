@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icon.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="style.css">
+  <title>ویراستو</title>
+</head>
+<body>
+ <div class="container">
+  <div class="row justify-content-center align-items-center py-5 py-sm-0" style="min-height: 100vh;">
+    <div class="col-md-10 col-lg-8 col-xl-7">
+      <div class="text-center">
+        <h1 class="example display-1 text-white en-font">تماس بـــا مــــا</h1>
+        <a href="index.html" class="read-more position-relative d-inline-block mt-4 mb-3 text-white wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1.5s">بازگشت به صفحه اصلی </a>
+        <div class="my-2 wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1.5s">
+          <span class="d-inline-block my-2 text-white fs-4 mx-2">0912-250-2737</span>
+          <span class="d-inline-block my-2 text-white fs-4 mx-2">تهران، شمیران نو، علامه حلی 2</span>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+ <script src="js/jQuery.js"></script>
+ <script src="js/jquery.liveType.js"></script>
+ <script src="js/wow.js"></script>
+ <script type="text/javascript">
+  jQuery(document).ready(function(){
+      jQuery('.example').liveType({
+        typeSpeed          : 100,      
+        pauseEvery         : 40, 
+        pauseTime          : 1500,   
+        pauseOnPunctuation : true,     
+        punctuationChars   : ['.', '.', '?', '!', ':', ';'],  
+        cursorEffect       : true,                            
+        cursorSpeed        : 1000,    
+        cursor             : '', 
+        cursorClass        : 'cursor'   
+      });
+  })
+  new WOW().init();
+</script>
+</body>
+</html>

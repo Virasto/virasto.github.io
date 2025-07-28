@@ -1,0 +1,65 @@
+/* Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+@font-face {
+	font-family: 'Fibid_Font';
+	src: url('fonts/dana-regular.ttf');
+}
+@font-face {
+	font-family: 'Fibid_Font';
+	src: url('fonts/manrope-medium.ttf');
+}
+.en-font{
+	font-family: 'Fibid_Font' !important;
+}
+body,
+html{
+	font-family: 'Fibid_Font';
+	font-size: 14px;
+}
+body{
+	background-color: #221c5a;
+    background-image: url("img/PassionateTeamOfVirasto.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+.fs-12 {
+	font-size: 12px;
+}
+.fs-13 {
+	font-size: 13px;
+}
+.fs-14 {
+	font-size: 14px;
+}
+.text-justify{
+	text-align: justify;
+}
+.bg-ae{
+	background-color: #ffffff59;
+}
+a.read-more::before{
+	content: "";
+    position: absolute;
+	top: -2px;
+    right: -12px;
+    width: 5px;
+    height: 5px;
+    background-color: #faf4f4;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #ffffff61;
+}
