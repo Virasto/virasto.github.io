@@ -1,0 +1,96 @@
+body {
+    background-image: url("img/PassionateTeamOfVirasto.png");
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo',sans-serif;
+    font-weight: bold;
+    direction: rtl;
+    text-align: right;
+}
+label {
+    font-size: 20px ;
+    font-weight:800 ;
+    
+}
+#popup-container {
+    background: #F9EEFF;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px #5da75a;
+    width: 600px;
+    height: 380px;
+    margin: 30px auto 0 auto;
+    padding: 22px 18px 18px 18px;
+    margin-top: 140px;
+}
+
+textarea#userInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical; 
+    border-radius: 5px;
+    border: 3px solid #a2d1a1;
+    font-family: 'Cairo',sans-serif;
+    min-height: 100px;
+    line-height: 1.5;
+}
+
+button#submitBtn{ 
+    padding: 9px 9px;
+    font-size: 18px;
+    font-family: 'Cairo',sans-serif;
+    margin-bottom: 15px;
+    background: radial-gradient(circle,#4b7e4a,#9eb89b);
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button#submitBtn:hover {
+    background: #aed4ae;
+}
+
+
+.suggestion-btn {
+    margin: 5px 5px 0 0;
+    padding: 5px 12px;
+    border: none;
+    font-family: 'Cairo',sans-serif;
+    background: #00e6ef;
+    color: #00303d;
+    border-radius: 4px;
+    cursor: progress;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.suggestion-btn:hover {
+    background: #12b5c1;
+}
+
+#correction-area p {
+    margin-top: 12px;
+    margin-bottom: 9px;
+}
+
+#correction-area .all-correct {
+    color: #0e7c1b;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Highlight wrong words */
+.highlight-mistake {
+    background: #000000;
+    color: #c24444;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    white-space: تتن;
+}

@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Virasto",
+  "version": "1.0",
+  "description": "Virasto is a Persian spellchecker",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://virasto-server.onrender.com/*",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "virs.png"
+  },
+  "icons": {
+    "16": "virs.png",
+    "48": "virs.png",
+    "128": "virs.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["floating.css"]
+    }
+  ]
+}

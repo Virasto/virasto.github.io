@@ -1,0 +1,76 @@
+/* Suggestion Bubble Container */
+#virasto-bubble {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 14px 16px 12px;
+    max-width: 280px;
+    z-index: 999999;
+    cursor: move;
+    font-family: Arial, sans-serif;
+    transition: box-shadow 0.2s ease;
+}
+
+/* Status text (e.g., "در حال بررسی...") */
+#virasto-status {
+    margin-bottom: 10px;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/* Suggestion buttons */
+.virasto-suggestion {
+    background-color: #00e6ef;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 4px 4px 0 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #00303d;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.virasto-suggestion:hover {
+    background-color: #12b5c1;
+}
+
+/* Action buttons */
+#virasto-actions {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#virasto-actions button {
+    background-color: #1870f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 0 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+#virasto-actions button:hover {
+    background-color: #d10e0e;
+}
+
+/* Highlight in-page mistakes (DOM content) */
+.highlight-mistake {
+    background-color: #ffb3b3;
+    color: #d10e0e;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+}

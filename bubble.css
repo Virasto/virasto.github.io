@@ -1,0 +1,117 @@
+#virasto-bubble {
+  position: absolute;
+  z-index: 999999;
+  background: #00c8a3;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+}
+
+#virasto-overlay {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  max-width: 350px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  z-index: 1000000;
+  font-family: Arial, sans-serif;
+  direction: rtl;
+}
+
+.virasto-line {
+  margin-bottom: 12px;
+}
+
+.virasto-suggestion {
+  margin: 4px;
+  padding: 5px 10px;
+  border: none;
+  background: #00bcd4;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.virasto-suggestion:hover {
+  background: #008c9e;
+}
+
+#virasto-close {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: #ccc;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.floating-bubble {
+    position: absolute;
+    z-index: 9999;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    font-family: sans-serif;
+    max-width: 250px;
+    word-wrap: break-word;
+}
+
+.activate-btn {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 14px;
+    text-align: center;
+    transition: background 0.2s;
+}
+
+.activate-btn:hover {
+    background-color: #0056b3;
+}
+
+.suggestion-box button {
+    margin: 6px 4px 0 0;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #00e6ef;
+    color: #00303d;
+}
+
+.suggestion-box .close-btn {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.suggestion-box .close-btn:hover {
+    background-color: #d10e0e;
+}
+
+.suggestion-box button:hover {
+    background-color: #12b5c1;
+}
+
+.message-box {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px 16px;
+}
+.highlight-mistake {
+    background-color: #ffcccc;
+    color: #d10e0e;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: bold;
+}
